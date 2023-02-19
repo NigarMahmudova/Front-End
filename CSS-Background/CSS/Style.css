@@ -1,0 +1,68 @@
+.img1{
+    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+    width: 100%;
+    height: 860px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.caption1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    width: 360px;
+    height: 150px;
+    margin-top: 350px;
+}
+.img2{
+    background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+    width: 100%;
+    height: 860px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+    width: 100%;
+    height: 860px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+    width: 100%;
+    height: 860px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.caption2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    width: 360px;
+    height: 150px;
+    margin-top: 350px;
+}
+.border{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+}

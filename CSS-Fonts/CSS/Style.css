@@ -1,0 +1,131 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 49px;
+    color: rgba(16, 158, 151, 1);
+    font-size: 49px;
+    line-height: 61px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.name {
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+#first {
+    width: 127px;
+    height: 29px;
+    left: 8px;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #008000;
+}
+
+#second {
+    width: 72px;
+    height: 18px;
+    left: 135px;
+    top: 208px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+}
+
+.content {
+    width: 1350px;
+    height: 256px;
+    left: 8px;
+    top: 552px;
+
+    background: #000000;
+    border-radius: 0px;
+}
+
+.content>h3 {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.content>p {
+    width: 1350px;
+    height: 256px;
+    left: 8px;
+    top: 552px;
+    height: 126px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+#table {
+    width: 1350px;
+    height: 194px;
+    left: 8px;
+    top: 879px;
+    border: 1px solid #808080;
+}
+
+#table caption {
+    text-align: left;
+}
+
+.form {
+    padding-left: 30px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+.form>h3 {
+    text-transform: uppercase;
+}
+
+#serh {
+    width: 261px;
+    height: 156px;
+}
+
+button {
+    margin-top: 22px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(16, 158, 151);
+    color: #FFFFFF;
+    border: 0;
+}
+
+ul {
+    margin-top: 41px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    width: 1350px;
+    height: 86px;
+    background-color: rgb(16, 158, 151);
+}
+
+.footer>p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 40px;
+    color: #FFFFFF;
+}

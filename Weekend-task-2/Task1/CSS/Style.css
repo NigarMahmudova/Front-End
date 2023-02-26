@@ -66,7 +66,8 @@
     margin-left: auto;
 }
 
-.start {
+.start,
+.marketing {
     width: 115px;
     padding: 0.5em 1em;
     border-radius: 50rem;
@@ -144,7 +145,8 @@ input {
 }
 
 .email input,
-.company input {
+.company input,
+.download-btn {
     width: 100%;
 }
 
@@ -158,7 +160,6 @@ input {
 }
 
 .download-btn {
-    width: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -171,4 +172,190 @@ input {
     font-size: 1rem;
     border-radius: 0.35rem;
 }
+
 /* Sign up section end */
+
+/* Find us section start */
+.find-us {
+    padding-right: 2.5rem;
+    padding-left: 6.5rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.find-us h2 {
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #d4dae3;
+    text-align: right;
+    margin-right: 80px;
+    margin-bottom: 25px;
+}
+
+.s-media {
+    max-width: 1080px;
+    display: flex;
+    color: #a7aeb8;
+    align-items: center;
+    justify-content: center;
+}
+
+.google,
+.product-hunt,
+.mailchimp,
+.instagram,
+.pinterest,
+.dribbble {
+    display: flex;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    width: 15%;
+    margin-left: 15px;
+}
+
+.google,
+.product-hunt,
+.mailchimp,
+.instagram,
+.pinterest,
+.dribbble svg {
+    fill: currentColor;
+}
+
+/* Find us section end */
+
+/* Services section start */
+.services {
+    max-width: 1110px;
+    padding: 0.875rem 1.125rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-top {
+    width: 66.66666667%;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+}
+
+.services-top p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-top,
+.card-bottom {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.card-top .left,
+.card-top .right,
+.card-bottom .left,
+.card-bottom .right {
+    padding: 2.5rem;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(33, 40, 50, 0.125);
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+    width: 100%;
+    margin: 16px;
+}
+
+.icon {
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.card-top .left .icon {
+    background-color: rgb(228, 221, 247);
+    color: rgb(105, 0, 199);
+    opacity: 1;
+}
+
+.card-top .right .icon {
+    background-color: rgb(218, 239, 237);
+    color: rgb(0, 172, 105);
+    opacity: 1;
+}
+
+.card-bottom .left .icon {
+    background-color: rgb(218, 231, 251);
+    color: rgb(0, 97, 242);
+    opacity: 1;
+}
+
+.card-bottom .right .icon {
+    background-color: rgb(242, 238, 227);
+    color: rgb(244, 161, 0);
+    opacity: 1;
+}
+
+h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #363d47;
+}
+
+/* Services section end */
+
+/* Suggest section start */
+.suggest{
+    background: #fff;
+}
+
+.suggest-aline{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.875rem 1.125rem;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    color: rgb(0, 97, 242);
+    opacity: 1;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.suggest-right .btn-l{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    color: #fff;
+    background-color: #0061f2;
+    border-color: #0061f2;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.35rem;
+    border: 1px solid transparent;
+}
+
+.btn-r{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(33, 40, 50, 0.5);
+    font-weight: 500;
+}
+/* Suggest section end */
+
+/* Main section end */

@@ -315,11 +315,11 @@ h5 {
 /* Services section end */
 
 /* Suggest section start */
-.suggest{
+.suggest {
     background: #fff;
 }
 
-.suggest-aline{
+.suggest-aline {
     display: flex;
     justify-content: space-between;
     padding: 0.875rem 1.125rem;
@@ -328,14 +328,14 @@ h5 {
     margin-right: auto;
 }
 
-h4{
+h4 {
     color: rgb(0, 97, 242);
     opacity: 1;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
-.suggest-right .btn-l{
+.suggest-right .btn-l {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -350,12 +350,109 @@ h4{
     border: 1px solid transparent;
 }
 
-.btn-r{
+.btn-r {
     background-color: transparent;
     border-color: transparent;
     color: rgba(33, 40, 50, 0.5);
     font-weight: 500;
 }
+
 /* Suggest section end */
 
 /* Main section end */
+
+/* Footer section start */
+.footer-top,
+.footer-top-right,
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    display: flex;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.svg-instagram,
+.svg-facebook,
+.svg-github,
+.svg-twitter {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    display: inline-block;
+    height: 1em;
+    color: #a7aeb8;
+}
+
+.footer {
+    width: 100%;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    color: #a7aeb8;
+}
+
+.footer-top-right div ul li a {
+    color: #a7aeb8;
+}
+
+.footer-top-right div ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-aline,
+.footer-bottom {
+    max-width: 1110px;
+    padding-top: 1.7rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-top-right {
+    width: 75%;
+    padding: 0px 20px;
+}
+
+.footer-top-left {
+    margin-right: 4.5rem;
+}
+
+.product,
+.technical,
+.includes,
+.legal {
+    width: 25%;
+}
+
+.product h3,
+.technical h3,
+.includes h3,
+.legal h3 {
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    padding-bottom: 2rem;
+}
+
+.footer-bottom-left,
+.footer-bottom-right {
+    width: 50%;
+}
+
+.footer-bottom-right {
+    text-align: right;
+}
+
+.footer-bottom-right a {
+    color: #a7aeb8;
+}
+/* Footer section end */

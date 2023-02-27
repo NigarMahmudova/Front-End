@@ -1,0 +1,33 @@
+#wrapper{
+    width: 10wh;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+#algo-expert{
+    width: 75%;
+    background-color: plum;
+}
+
+#systems-expert{
+    width: 50%;
+    background-color: rgb(122, 10, 10);
+}
+
+#ml-expert{
+    width: 30%;
+    height: 75px;
+    background-color: rgb(238, 158, 8);
+}
+
+#frontend-expert{
+    width: 50%;
+    margin-right: 10px;
+    background-color: mediumaquamarine;
+}
+
+#programming-expert{
+    height: 75px;
+    background-color: rgb(238, 89, 114);
+}

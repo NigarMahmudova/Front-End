@@ -1,0 +1,109 @@
+.container {
+    max-width: 1340px;
+    display: flex;
+    margin: auto;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #232323;
+}
+/* Header section start */
+nav{
+    padding: 0 1rem;
+    min-height: 70px;
+    border-bottom: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img{
+    display: inline;
+    padding-right: 10px;
+    height: 3rem;
+    width: auto;
+}
+
+.nav-caption{
+    color: inherit;
+    line-height: inherit;
+    font-size: 1.0525rem;
+    font-weight: 700;
+    white-space: normal;
+    vertical-align: -4px;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right ul li{
+    margin: 10.672px 16px;
+}
+
+.nav-right ul li a{
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.icons{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.icons a{
+    padding: 8px;
+}
+/* Header section end */
+
+/* Main section start */
+
+/* Main-info section start */
+.container-main-info{
+    min-height: 800px;
+}
+
+.main-info{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-info .right{
+    background-image: url("https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/image3-800x800.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.left, .right{
+    width: 50%;
+}

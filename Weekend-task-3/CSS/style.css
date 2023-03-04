@@ -1,7 +1,9 @@
 .container {
-    max-width: 1340px;
+    max-width: 1140px;
     display: flex;
     margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 body {
@@ -11,99 +13,275 @@ body {
     font-weight: 400;
     color: #232323;
 }
+
 /* Header section start */
-nav{
+nav {
     padding: 0 1rem;
     min-height: 70px;
     border-bottom: 1px solid transparent;
-    background: rgba(255, 255, 255, 0.2);
+    background: #f5f3f1;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
     width: 100%;
 }
 
 .nav-left {
     display: flex;
+    width: 100%;
     padding: 10px 0;
     font-size: 1.25rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.nav-logo img{
+.nav-logo img {
     display: inline;
     padding-right: 10px;
     height: 3rem;
     width: auto;
 }
 
-.nav-caption{
+.nav-caption {
     color: inherit;
     line-height: inherit;
     font-size: 1.0525rem;
     font-weight: 700;
     white-space: normal;
     vertical-align: -4px;
+    margin-left: 18px;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
-.nav-right ul{
+.nav-right ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav-right ul li{
-    margin: 10.672px 16px;
-}
+/* .nav-right ul li{
+    margin: 10.672px 0px;
+} */
 
-.nav-right ul li a{
+.nav-right ul li a {
     color: inherit;
     font-size: 1rem;
     font-weight: 500;
+    margin: 0.667em 1em;
 }
 
-.icons{
+.icons {
     padding: 0.5rem;
     display: flex;
     align-items: center;
 }
 
-.icons a{
+.icons a {
     padding: 8px;
+    margin-left: 0.5rem;
 }
+
 /* Header section end */
 
 /* Main section start */
 
 /* Main-info section start */
-.container-main-info{
-    min-height: 800px;
+
+.main-info-wrapper {
+    background-image: url("../Images/background9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
 }
 
-.main-info{
+.main-info-wrapper::before {
+    content: '';
+    opacity: 0.7;
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-info {
     display: flex;
-    padding-left: 16px;
-    padding-right: 16px;
+    align-items: center;
+    /* padding-left: 16px;
+    padding-right: 16px; */
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-.main-info .right{
-    background-image: url("https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/image3-800x800.jpg");
-    background-size: cover;
-    height: 800px;
-}
-
-.left, .right{
+.left,
+.right {
     width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
 }
+
+.main-info .left h5 {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.9376rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.main-info .left p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #ff2b09;
+    color: #000000;
+    padding: 0.6rem 2.8rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #ffffff !important;
+    background-color: #ff2b09 !important;
+    border-color: #ff2b09;
+    box-shadow: none!important;
+}
+/* Main info section end */
+
+/* About us section start */
+.about-us{
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-us h3{
+    padding-bottom: 85px;
+    font-family: 'Syne', sans-serif;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card{
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #f2f2f2;
+    padding: 30px 30px 60px;
+    margin: 25px 0 0;
+}
+
+.card h5{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.card p{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+}
+/* About us section end */
+
+/* Description section start */
+.description{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.desc-left, .desc-right{
+    width: 100%;
+}
+
+.desc-left{
+    text-align: left;
+    padding: 0 5rem 0 8rem;
+}
+
+.desc-left h3{
+    font-family: 'Syne', sans-serif;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.desc-left h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #626262;
+}
+
+.desc-right{
+    text-align: right;
+    margin-top: 25px;
+}
+
+.card-acc{
+    display: flex;
+    flex-direction: column; 
+}
+
+.desc-left>.first{
+    padding-top: 2rem;
+}
+
+.card-header{
+    margin-bottom: -1px;
+}
+
+.card-title-edit{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 24px 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 1px solid #313131;
+    font-weight: bold;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+}
+
+.card-title-edit{
+    display: flex;
+    justify-content: space-between;
+}
+/* Description section end */
+

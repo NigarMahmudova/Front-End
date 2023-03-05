@@ -119,8 +119,6 @@ nav {
 .main-info {
     display: flex;
     align-items: center;
-    /* padding-left: 16px;
-    padding-right: 16px; */
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
@@ -136,7 +134,7 @@ nav {
     padding-right: 16px;
 }
 
-.main-info .left h5 {
+.caption {
     font-family: 'Syne', sans-serif;
     font-size: 2.9376rem;
     font-weight: 700;
@@ -144,7 +142,7 @@ nav {
     text-transform: uppercase;
 }
 
-.main-info .left p {
+.italic-title {
     font-family: 'EB Garamond', serif;
     font-size: 1.4375rem;
     line-height: 1.5;
@@ -163,22 +161,23 @@ nav {
     font-weight: 600;
 }
 
-.btn:hover{
+.btn:hover {
     color: #ffffff !important;
     background-color: #ff2b09 !important;
     border-color: #ff2b09;
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
+
 /* Main info section end */
 
 /* About us section start */
-.about-us{
+.about-us {
     width: 100%;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-.about-us h3{
+.about-us h3 {
     padding-bottom: 85px;
     font-family: 'Syne', sans-serif;
     font-size: 2.9376rem;
@@ -186,14 +185,14 @@ nav {
     text-align: center;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     gap: 30px;
     text-align: center;
 }
 
-.card{
+.card {
     padding-left: 16px;
     padding-right: 16px;
     background: #f2f2f2;
@@ -201,7 +200,7 @@ nav {
     margin: 25px 0 0;
 }
 
-.card h5{
+.card h5 {
     font-family: 'Syne', sans-serif;
     font-size: 1.0525rem;
     line-height: 1.5;
@@ -209,15 +208,16 @@ nav {
     margin-bottom: 0.75rem;
 }
 
-.card p{
+.card p {
     font-family: 'Syne', sans-serif;
     font-size: 1.0525rem;
     line-height: 1.5;
 }
+
 /* About us section end */
 
 /* Description section start */
-.description{
+.description {
     display: flex;
     align-items: center;
     width: 100%;
@@ -225,23 +225,24 @@ nav {
     padding-bottom: 5rem;
 }
 
-.desc-left, .desc-right{
+.desc-left,
+.desc-right {
     width: 100%;
 }
 
-.desc-left{
+.desc-left {
     text-align: left;
     padding: 0 5rem 0 8rem;
 }
 
-.desc-left h3{
+.desc-left h3 {
     font-family: 'Syne', sans-serif;
     font-size: 2.9376rem;
     line-height: 1.1;
     text-transform: uppercase;
 }
 
-.desc-left h4{
+.desc-left h4 {
     font-family: 'EB Garamond', serif;
     font-size: 1.4375rem;
     line-height: 1.5;
@@ -249,25 +250,25 @@ nav {
     color: #626262;
 }
 
-.desc-right{
+.desc-right {
     text-align: right;
     margin-top: 25px;
 }
 
-.card-acc{
+.card-acc {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.desc-left>.first{
+.desc-left>.first {
     padding-top: 2rem;
 }
 
-.card-header{
+.card-header {
     margin-bottom: -1px;
 }
 
-.card-title-edit{
+.card-title-edit {
     color: #000000;
     text-transform: uppercase;
     padding: 24px 0;
@@ -279,9 +280,318 @@ nav {
     line-height: 1.5;
 }
 
-.card-title-edit{
+.card-title-edit {
     display: flex;
     justify-content: space-between;
 }
+
 /* Description section end */
 
+/* Checklist section start */
+#checklist {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.checklist {
+    padding: 12.5rem 0;
+    background: #f2f2f2;
+    border-radius: 0;
+    width: 100%;
+}
+
+.checklist h4 {
+    font-family: 'Syne', sans-serif;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-with-line {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.btn-with-line:hover {
+    color: #ff2b09;
+    text-decoration: underline 3px #ff2b09;
+}
+
+/* Checklist section end */
+
+/* Body-care section start */
+.body-care {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.body-care .left,
+.body-care .right {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.body-care .right {
+    padding-left: 5rem;
+    padding-right: 16px;
+}
+
+.body-care .italic-title {
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1.0525rem;
+    margin-bottom: 2rem;
+}
+
+/* Body-care section end */
+
+.special-offers {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.special-offers-wrapper {
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.offers-left,
+.offers-right {
+    width: 100%;
+}
+
+.offers-right {
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+
+.offers-right img {
+    padding-bottom: 1rem;
+}
+
+.offers-right h4 {
+    width: 100%;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+/* Special-offers section end */
+
+/* Face-care section start */
+.face-care {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.face-left {
+    padding-right: 5rem;
+}
+
+.face-right {
+    display: flex;
+}
+
+.face-right-img {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.img-content {
+    color: #000000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0 20px 36px;
+}
+
+/* Face-care section end */
+
+/* Bestsellers section start */
+.bestsellers {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bestsellers-bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.bestsellers-img {
+    position: relative;
+}
+
+.bestsellers-top>h4,
+.products-top>h4 {
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* Bestsellers section end */
+
+/* Products section start */
+.products {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.products-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+/* Products section end */
+
+/* Recommend section start */
+.recommend {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.recommend-top>h4 {
+    padding-bottom: 60px;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recommend-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.recommend-img {
+    max-width: 12.5%;
+    padding: 1rem 0;
+    opacity: 0.7;
+}
+
+.recommend-img img {
+    width: 100%;
+}
+
+/* Recommend section end */
+
+/* Contact us section start */
+.contact-us{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-left{
+    width: 69%;
+    padding-right: 5rem;
+    padding-left: 4rem;
+}
+
+.contact-left .caption{
+    color: #000000;
+    font-size: 1.875rem;
+    line-height: 1.1;
+}
+
+.contact-left p{
+    color: #626262;
+    padding-top: 10px;
+    margin-bottom: 0.5rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+}
+
+.contact-links{
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-links h5 a{
+    color: #000000;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.contact-right{
+    text-align: left;
+    width: 100%;
+    padding-right: 5rem;
+}
+
+.form-top{
+    display: flex;
+    width: 100%;
+}
+
+.input{
+    padding: 25px 30px;
+    margin: 0;
+    border-radius: 0;
+    border: 0px;
+    outline: 2px solid #cdcdcb;
+    width: 50%;
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+}
+.textarea{
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 0;
+    border-radius: 0;
+    border: 0px;
+    outline: 2px solid #cdcdcb;
+    width: 100%;
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+}
+
+.form-bottom .btn{
+    margin-top: 20px;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+/* Contact us section end */
